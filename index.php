@@ -1,31 +1,12 @@
 <?php
-echo "hello word";
-
-$nama = "udet";
-$umur = 40;
-$tinggi = 170.9;
-$kelas = "TIB Smester 4";
-
-echo "nama saya $nama, umur saya $umur, tinggi saya $tinggi, kelas saya $kelas";
-
-echo "<br><br>===================================<br><br>";
-
-// operator dan kondisi (if else)
-
-$nilai1 = 11;
-$nilai2 = 12;
-$nilai3 =5;
-
-$hasil = $nilai1 * $nilai2 - $nilai3;
-
-echo "hasil dari $nilai1 * $nilai2 - $nilai3 adalah $hasil";
-
-if (hasil >= 100)
-    (echo "<br> hasilnya lebih besar dari 1000");
- else if (hasil <= 100)
-    echo "<br> hasilnya lebih kecil dari 1000";
- else
-    echo"<br>nilai anda kosong"
-
- 
+echo '<br><button><a href="materi1.php">Materi 1 : Variabel dan Tipe Data</a></button>';
+echo '<br><button><a href="materi2.php">Materi 2 : Kondisi dan Looping</a></button>';
+echo '<br><button><a href="materi3.php">Materi 3 : Fungsi</a></button>';
+echo '<br><button><a href="materi4.php">Materi 4 : Array</a></button>';
+echo '<br><button><a href="materi5.php">Materi 5 : Session dan Cookie</a></button>';
+echo '<br><button><a href="materi6.php">Materi 6 : Form Processing</a></button>';
+echo '<br><button><a href="materi7.php">Materi 7 : File Handling</a></button>';
+echo '<br><button><a href="materi8.php">Materi 8 : Database Connection</a></button>';
+echo '<br><button><a href="materi9.php">Materi 9 : CRUD Operations</a></button>';
+echo '<br><button><a href="materi10.php">Materi 10 : Error Handling</a></button>';
 ?>
